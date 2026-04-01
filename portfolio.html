@@ -33,7 +33,7 @@
         <!-- header start  -->
         <header class="main-header">
             <!-- logo   -->
-            <a href="index5.html" class="logo-holder"><img style="height: 32px" src="images/logo.png" alt=""></a>
+            <a href="index.html" class="logo-holder"><img style="height: 32px" src="images/logo.png" alt=""></a>
             <!-- logo end  -->
             <!-- mobile nav -->
             <div class="nav-button-wrap">
@@ -45,7 +45,7 @@
                 <nav>
                     <ul>
                         <li>
-                            <a href="index5.html">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
                             <a href="portfolio.html" class="act-link">Gallery</a>
@@ -94,10 +94,10 @@
                 <!-- bottom-filter-wrap end -->
                 <!--horizontal-grid   -->
                 <div class="horizontal-grid-wrap  fl-wrap full-height ">
-                        <!-- portfolio start -->
-                        <div   id="portfolio_horizontal_container" class="two-ver-columns lightgallery gallery-script">
-                            
-                        </div>
+                    <!-- portfolio start -->
+                    <div id="portfolio_horizontal_container" class="two-ver-columns lightgallery gallery-script">
+
+                    </div>
                 </div>
                 <!--horizontal-grid end -->
             </div>
@@ -158,66 +158,108 @@
     <script type="text/javascript" src="js/scripts.js"></script>
     <script>
         const images = [
-    "images/folio/couple/1.jpg",
-    "images/folio/couple/2.jpg",
-    "images/folio/couple/3.jpg",
-    "images/folio/couple/4.jpg",
-    "images/folio/couple/5.jpg",
-    "images/folio/couple/6.jpg",
-    "images/folio/couple/7.jpg",
-    "images/folio/couple/8.jpg",
-    "images/folio/couple/9.jpg",
-    "images/folio/couple/10.jpg",
-    "images/folio/couple/11.jpg",
-    "images/folio/couple/12.jpg",
-    "images/folio/couple/13.jpg",
-    "images/folio/couple/14.jpg",
-    "images/folio/couple/15.jpg",
-    "images/folio/couple/16.jpg",
-    "images/folio/couple/17.jpg",
-    "images/folio/couple/18.jpg",
-    "images/folio/couple/19.jpg",
-    "images/folio/couple/20.jpg",
-    "images/folio/couple/21.jpg",
-    "images/folio/couple/22.jpg",
-    "images/folio/couple/23.jpg",
-    "images/folio/couple/24.jpg",
-    "images/folio/couple/25.jpg",
-    "images/folio/couple/26.jpg",
-    "images/folio/couple/27.jpg",
-    "images/folio/couple/28.jpg",
-    "images/folio/couple/29.jpg",
-    "images/folio/couple/30.jpg",
-    "images/folio/couple/31.jpg",
-    "images/folio/couple/32.jpg",
-    "images/folio/couple/33.jpg",
-    "images/folio/couple/34.jpg",
-    "images/folio/couple/35.jpg",
-    "images/folio/couple/36.jpg",
-    "images/folio/couple/37.jpg",
-    "images/folio/couple/38.jpg",
-    "images/folio/couple/39.jpg",
-    "images/folio/couple/40.jpg",
-    "images/folio/couple/41.jpg",
-    "images/folio/couple/42.jpg",
-    "images/folio/couple/43.jpg"
-];
+            { src: "images/folio/couple/1.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/1.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/1.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/1.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/2.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/2.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/2.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/2.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/3.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/3.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/3.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/3.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/4.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/4.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/4.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/4.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/5.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/5.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/5.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/5.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/6.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/6.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/6.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/6.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/7.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/7.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/7.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/7.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/8.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/8.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/8.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/8.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/9.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/9.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/9.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/9.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/10.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/nikkah/10.jpg", category: "Nikkah", class: "models" },
+            { src: "images/folio/extra/10.jpg", category: "Extra", class: "outdoor" },
+            { src: "images/folio/reception/10.jpg", category: "Reception", class: "couples" },
+
+            { src: "images/folio/couple/11.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/12.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/13.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/14.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/15.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/16.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/17.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/18.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/19.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/20.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/21.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/22.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/23.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/24.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/25.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/26.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/27.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/28.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/29.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/30.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/31.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/32.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/33.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/34.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/35.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/36.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/37.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/38.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/39.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/40.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/41.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/42.jpg", category: "Couple", class: "nature" },
+            { src: "images/folio/couple/43.jpg", category: "Couple", class: "nature" }
+        ];
 
         const gallery = document.querySelector(".gallery-script");
 
-        images.forEach((src) => {
+        images.forEach((image) => {
             gallery.innerHTML += `
                 <!-- portfolio_item-->
-                            <div class="portfolio_item nature">
-                                <div class="grid-item-holder hov_zoom">
-                                    <img  src="${src}"    alt="">
-                                    <a href="${src}" class="box-media-zoom   popup-image"><i class="fal fa-search"></i></a>                                    
-                                    <div class="thumb-info">
-                                        <h3><a href="portfolio-single.html">Alone on Nature</a></h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- portfolio_item end-->
+                <div class="portfolio_item ${image.class}">
+                    <div class="grid-item-holder hov_zoom">
+                        <img src="${image.src}" alt="">
+                        <a href="${image.src}" class="box-media-zoom popup-image">
+                            <i class="fal fa-search"></i>
+                        </a>                                    
+                        <div class="thumb-info">
+                            <h3><a href="portfolio-single.html">${image.category}</a></h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- portfolio_item end-->
             `;
         });
     </script>
